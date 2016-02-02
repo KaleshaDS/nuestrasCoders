@@ -1,0 +1,36 @@
+
+img
+{
+	height: 200px;
+	width: 200px;
+	margin-right:-90px;
+	margin-bottom: 20px;
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%); /*Filtro de opacidad*/
+	-moz-filter: brightness(50%);
+	/*opacity: 0.5;  ----> Otra configuracion de opacidad*/
+}
+
+hr {
+	border: 0;
+	border-top: 3px solid black; 
+	border-bottom: 1px solid #333;  /*propiedades de la linea*/
+	width: 100px;
+	float: left;
+	position: absolute;
+}
+
+div{
+	position: relative;  /*propiedades de las cajas*/
+	top: 40px;
+}
+
+span{
+	position: relative;   /*propiedades de los textos*/
+	top:-30px;
+	left:-30px;
+	bottom:0px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: monospace;
+}
